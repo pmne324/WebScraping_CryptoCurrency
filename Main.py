@@ -1,7 +1,8 @@
 """
 Web Scraper for Persian Crypto Currency Purpose
 Author : Porya M. Nilaore
-Date 22 March, 2024 
+Date 22 March, 2024
+Versin : V0.1
 """
 
 # Import essential modules:
