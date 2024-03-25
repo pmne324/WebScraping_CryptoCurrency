@@ -110,9 +110,9 @@ PayWM   = ext_func_mech(Raw_data["PayWM"][0], Raw_data["PayWM"][1], Raw_data["Pa
 NobiTex = ext_func(Raw_data["Nobitex"][0], Raw_data["Nobitex"][1], Raw_data["Nobitex"][2], hdr)
 
 print("------------------------")
-print("BitBarg : " + str(BitBarg))
-print("PayWM-Buy :" + str(PayWM[0]) + " PayWM-Sell : " + str(PayWM[1]))
-print("NobiTex : " + str(NobiTex))
+print("BitBarg : " + str(BitBarg) + " Tooman")
+print("PayWM-Buy :" + str(PayWM[0]/10) + " PayWM-Sell : " + str(PayWM[1]/10) + " Tooman")
+print("NobiTex : " + str(NobiTex/10) + " Tooman")
 print("------------------------")
 
 
